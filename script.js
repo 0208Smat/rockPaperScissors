@@ -10,6 +10,8 @@ function playRound(computerPlayIndex = getComputerPlay(), userPlayIndex = getUse
 
     userPlayIndex = userPlayIndex > 2 ? 2 : userPlayIndex;
     let userPlay = options[getKeyForOption(userPlayIndex)];
+
+    //my new stuff aaa
     
     let introText;
     if(userPlay === computerPlay){
